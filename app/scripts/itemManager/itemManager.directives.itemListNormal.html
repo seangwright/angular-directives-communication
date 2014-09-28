@@ -1,0 +1,10 @@
+<div class="col-md-4">
+    <h5>Item List</h5>
+
+    <ul class="items-list list-unstyled">
+        <li data-ng-repeat="item in vm.items">
+            <span>{{item.name}} - {{item.size}}</span>
+            <a href="" class="fa fa-pencil-square-o" data-ng-click="vm.editItem(item)"></a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.items-list li {
+    padding: 3px 4px;
+    width: 150px;
+}
+
+.items-list li:hover {
+    background-color: #efefef;
+}
+
+.items-list a {
+    float: right;
+}
